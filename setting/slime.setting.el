@@ -3,7 +3,7 @@
 (slime-setup '(slime-fancy))
 (add-hook 'lisp-mode-hook
 	  (lambda ()
-	    (local-set-key (kbd "<C-tab>") 'slime-complete-symbol)))
+	    (local-set-key (kbd "<C-tab>") 'completion-at-point)))
 
 (require 'slime-cl-indent)
 (add-to-list 'slime-contribs 'slime-cl-indent)
