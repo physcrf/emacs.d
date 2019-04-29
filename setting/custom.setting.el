@@ -16,7 +16,7 @@
  '(make-backup-files nil))
 
 (custom-set-faces
- '(default ((t (:family "DejaVu Sans Mono" :foundry "PfEd" :slant normal :weight normal :height 98 :width normal))))
+ '(default ((t (:family "DejaVu Sans Mono" :foundry "1ASC" :slant normal :weight normal :height 98 :width normal))))
  '(region ((t (:background "light gray" :distant-foreground "gtk_selection_fg_color")))))
 
 

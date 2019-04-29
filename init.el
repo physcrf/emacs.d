@@ -14,5 +14,5 @@
 (require 'org.setting)
 (require 'org-ref.setting)
 (require 'pyim.setting)
+(require 'markdown.setting)
 
-(provide 'init)
