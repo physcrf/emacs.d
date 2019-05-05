@@ -1,0 +1,19 @@
+
+;; ----- smex-history -----
+(
+ company-mode
+ package-list-packages
+ cd
+ jb
+ 5x5
+ arp
+ dbx
+)
+
+;; ----- smex-data -----
+(
+ (auto-complete-mode . 4)
+ (auto-complete . 5)
+ (package-list-packages . 1)
+ (company-mode . 3)
+)
