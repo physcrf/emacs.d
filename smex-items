@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ slime
+ org-ref-pdf-to-bibtex
+ doi-utils-add-bibtex-entry-from-doi
  company-mode
  package-list-packages
  cd
  jb
- 5x5
- arp
- dbx
 )
 
 ;; ----- smex-data -----
@@ -16,4 +16,7 @@
  (auto-complete . 5)
  (package-list-packages . 1)
  (company-mode . 3)
+ (org-ref-pdf-to-bibtex . 2)
+ (doi-utils-add-bibtex-entry-from-doi . 1)
+ (slime . 1)
 )
