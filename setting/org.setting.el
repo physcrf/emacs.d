@@ -12,6 +12,8 @@
     (org-latex-export-to-latex)
     (compile "make")))
 
+(define-key org-mode-map (kbd "<C-left>") 'left-word)
+(define-key org-mode-map (kbd "<C-right>") 'right-word)
 (define-key org-mode-map (kbd "<C-M-left>") 'windmove-left)
 (define-key org-mode-map (kbd "<C-M-right>") 'windmove-right)
 (define-key org-mode-map (kbd "<C-M-up>") 'windmove-up)

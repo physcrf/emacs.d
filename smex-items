@@ -2,12 +2,12 @@
 ;; ----- smex-history -----
 (
  slime
+ comment-region
+ uncomment-region
  org-ref-pdf-to-bibtex
  doi-utils-add-bibtex-entry-from-doi
  company-mode
  package-list-packages
- cd
- jb
 )
 
 ;; ----- smex-data -----
@@ -18,5 +18,7 @@
  (company-mode . 3)
  (org-ref-pdf-to-bibtex . 2)
  (doi-utils-add-bibtex-entry-from-doi . 1)
- (slime . 1)
+ (slime . 10)
+ (comment-region . 2)
+ (uncomment-region . 1)
 )
