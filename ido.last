@@ -1,0 +1,51 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/crf/.sbclql/local-projects/bibitem/" . "src/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/crf/Desktop/Literature/"
+ "/home/crf/.sbclql/local-projects/gref/src/"
+ "/home/crf/.sbclql/local-projects/gref/"
+ "/home/crf/Projects/USi3/draft/"
+ "/home/crf/.sbclql/local-projects/bib/"
+ "/home/crf/.sbclql/local-projects/bib/src/"
+ "/home/crf/.sbclql/local-projects/bibitem/src/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "papers.bib"
+ "list.lisp"
+ "gref.asd"
+ "package.lisp"
+ "Makefile"
+ "bib.asd"
+ "aux.lisp"
+ "bib.lisp"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/crf/Desktop/Literature/" (23769 27168 741953 266000) "../" "notes.org" "papers.bib" "pdfs/" "./")
+
+ ("/home/crf/.sbclql/local-projects/gref/src/" (23762 57426 892378 737000) "list.lisp" "array.lisp" "../" "package.lisp" "./")
+
+ ("/home/crf/.sbclql/local-projects/gref/" (23762 59101 12546 753000) "../" "src/" ".git/" "README.md" "./" "gref.asd")
+
+ ("/home/crf/Projects/USi3/draft/" (23762 39567 88409 984000) "../" "draft.tex" "beta.pdf" "draft.log" "kappa2.pdf" "phononband.pdf" "draft.pdf" "ise300.pdf" "draft.out" "ELFCAR.pdf" "therm.pdf" "bulk.pdf" "draft.blg" "helmholtz.pdf" "Makefile" "draft.aux" "kappa1.pdf" "./" "draft.org" "phonondos.pdf" "draft.bbl" "CHGCAR.pdf" "dos.pdf" "fatband.pdf" "draft/" "draftNotes.bib")
+
+ ("/home/crf/.sbclql/local-projects/bib/src/" (23761 29403 770472 152000) "bib.lisp" "../" "aux.lisp" "package.lisp" "./")
+
+ ("/home/crf/.sbclql/local-projects/bib/" (23761 28812 859149 548000) "../" "src/" "README.md" "./" "bib.asd")
+
+ ("/home/crf/.sbclql/local-projects/bibitem/src/" (23761 18220 74884 426000) "bib.lisp" "../" "package.lisp" "./")
+
+ ("/home/crf/.sbclql/local-projects/bibitem/" (23761 18224 204879 353000) "../" "src/" "bibitem.asd" "README.md" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

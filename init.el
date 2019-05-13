@@ -7,6 +7,7 @@
  ;; If there is more than one, they won't work right.
  '(inhibit-startup-screen t)
  '(make-backup-files nil)
+ '(org-agenda-files (quote ("~/Projects/USi3/draft/paper/usi3.org")))
  '(org-file-apps
    (quote
     ((auto-mode . emacs)
@@ -16,7 +17,7 @@
  '(org-highlight-latex-and-related (quote (latex script entities)))
  '(package-selected-packages
    (quote
-    (paredit org-ref markdown-mode+ markdown-mode pyim gnuplot-mode slime cdlatex auctex)))
+    (org-ref markdown-mode+ markdown-mode pyim gnuplot-mode slime cdlatex auctex)))
  '(show-paren-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
