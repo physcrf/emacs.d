@@ -16,7 +16,7 @@
  '(org-highlight-latex-and-related (quote (latex script entities)))
  '(package-selected-packages
    (quote
-    (org-ref markdown-mode+ markdown-mode pyim gnuplot-mode slime cdlatex auctex)))
+    (paredit org-ref markdown-mode+ markdown-mode pyim gnuplot-mode slime cdlatex auctex)))
  '(show-paren-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
