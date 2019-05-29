@@ -2,45 +2,101 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/crf/Nutstore/" . "Literature/")
+ ("/home/" . "crf/")
+ ("/home/crf/.sbclql/local-projects/bib/" . "src/")
+ ("/home/crf/.sbclql/local-projects/" . "bib/")
+ ("/home/crf/.sbclql/local-projects/bib/src/" . "abbrev/")
+ ("/home/crf/.sbclql/local-projects/clsl/src/" . "special/")
  ("/home/crf/.sbclql/local-projects/bibitem/" . "src/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/crf/Desktop/Literature/"
+ "/home/crf/Projects/UN/xps/"
  "/home/crf/.sbclql/local-projects/gref/src/"
  "/home/crf/.sbclql/local-projects/gref/"
- "/home/crf/Projects/USi3/draft/"
- "/home/crf/.sbclql/local-projects/bib/"
+ "/home/crf/Projects/UN/GGA/xps/"
  "/home/crf/.sbclql/local-projects/bib/src/"
+ "/home/crf/Projects/physcrf.github.io/abbrev/"
+ "/home/crf/.sbclql/local-projects/clsl/src/special-function/"
+ "/home/crf/.sbclql/local-projects/clsl/src/"
+ "/home/crf/Projects/USi3/figures/bulk/"
+ "/home/crf/.sbclql/local-projects/bib/src/abbrev/"
+ "/home/crf/Nutstore/Literature/"
+ "/home/crf/.sbclql/local-projects/bib/"
+ "/home/crf/.sbclql/local-projects/clsl/src/special/"
+ "/home/crf/.sbclql/local-projects/clsl/"
+ "/home/crf/.sbclql/local-projects/xarray/"
+ "/home/crf/.sbclql/local-projects/xarray/src/"
+ "/home/crf/Desktop/Literature/"
+ "/home/crf/Projects/USi3/draft/"
  "/home/crf/.sbclql/local-projects/bibitem/src/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "papers.bib"
- "list.lisp"
- "gref.asd"
- "package.lisp"
  "Makefile"
- "bib.asd"
- "aux.lisp"
- "bib.lisp"
+ "package.lisp"
+ "list.lisp"
+ "xmls.lisp"
+ "hash.lisp"
+ "gref.asd"
+ "array.lisp"
+ "abbrev.lisp"
+ "legendre.lisp"
+ "lambert.lisp"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/crf/Desktop/Literature/" (23769 27168 741953 266000) "../" "notes.org" "papers.bib" "pdfs/" "./")
+ ("/home/crf/Desktop/Literature/" (23790 22791 855206 598000) "../" "notes.org" "papers.bib" "pdfs/" "./")
 
- ("/home/crf/.sbclql/local-projects/gref/src/" (23762 57426 892378 737000) "list.lisp" "array.lisp" "../" "package.lisp" "./")
+ ("/home/crf/.sbclql/local-projects/xarray/src/" (23790 16948 848075 199000) "xarray.lisp" "../" "slice.lisp" "package.lisp" "./")
 
- ("/home/crf/.sbclql/local-projects/gref/" (23762 59101 12546 753000) "../" "src/" ".git/" "README.md" "./" "gref.asd")
+ ("/home/crf/.sbclql/local-projects/xarray/" (23790 16948 848075 199000) "../" "src/" ".git/" "README.md" "xarray.asd" "./")
 
- ("/home/crf/Projects/USi3/draft/" (23762 39567 88409 984000) "../" "draft.tex" "beta.pdf" "draft.log" "kappa2.pdf" "phononband.pdf" "draft.pdf" "ise300.pdf" "draft.out" "ELFCAR.pdf" "therm.pdf" "bulk.pdf" "draft.blg" "helmholtz.pdf" "Makefile" "draft.aux" "kappa1.pdf" "./" "draft.org" "phonondos.pdf" "draft.bbl" "CHGCAR.pdf" "dos.pdf" "fatband.pdf" "draft/" "draftNotes.bib")
+ ("/home/crf/.sbclql/local-projects/clsl/" (23790 16948 818075 560000) "../" "src/" "clsl.asd" ".git/" "README.md" "./")
 
- ("/home/crf/.sbclql/local-projects/bib/src/" (23761 29403 770472 152000) "bib.lisp" "../" "aux.lisp" "package.lisp" "./")
+ ("/home/crf/.sbclql/local-projects/bib/" (23790 17624 750617 79000) "../" "src/" ".git/" "README.md" "./" "bib.asd")
 
- ("/home/crf/.sbclql/local-projects/bib/" (23761 28812 859149 548000) "../" "src/" "README.md" "./" "bib.asd")
+ ("/home/crf/Nutstore/Literature/" (23790 22791 855206 598000) "../" "notes.org" "papers.bib" "pdfs/" "./")
+
+ ("/home/crf/.sbclql/local-projects/bib/src/abbrev/" (23790 17610 830761 652000) "d.lisp" "a.lisp" "e.lisp" "../" "y.lisp" "v.lisp" "s.lisp" "abbrev.lisp" "n.lisp" "c.lisp" "q.lisp" "w.lisp" "r.lisp" "x.lisp" "i.lisp" "t.lisp" "u.lisp" "k.lisp" "b.lisp" "j.lisp" "g.lisp" "./" "p.lisp" "o.lisp" "h.lisp" "f.lisp" "l.lisp" "z.lisp" "m.lisp")
+
+ ("/home/crf/.sbclql/local-projects/clsl/src/" (23790 16948 814742 268000) "../" "libraries.lisp" "matrix/" "polynomial.lisp" "package.lisp" "special-function/" "./" "math.lisp")
+
+ ("/home/crf/.sbclql/local-projects/clsl/src/special-function/" (23790 16948 814742 268000) "coupling.lisp" "../" "legendre.lisp" "psi.lisp" "zeta.lisp" "bessel.lisp" "dilogarithm.lisp" "hypergeometric.lisp" "gsl.lisp" "elljac.lisp" "lambert.lisp" "hermite.lisp" "dawson.lisp" "beta.lisp" "fermi.lisp" "debye.lisp" "coulomb.lisp" "airy.lisp" "./" "gegenbauer.lisp" "clausen.lisp" "laguerre.lisp" "ellint.lisp" "error.lisp" "expint.lisp" "gamma.lisp")
+
+ ("/home/crf/Projects/physcrf.github.io/abbrev/" (23790 17716 649668 116000) "../" "abbrev.lisp" "Makefile" "README.md" "./")
+
+ ("/home/crf/.sbclql/local-projects/bib/src/" (23790 17543 228133 992000) "bib.lisp" "../" "aux.lisp" "abbrev/" "package.lisp" "./" ".libs/")
+
+ ("/home/crf/Projects/UN/xps/" (23790 22489 396271 745000) "emisL3.log" "xps.gnuplot" "../" "emisM5.pdf" "absK-inc.eps" "absM5.log" "absK.pdf" "absM5.tex" "emisK-inc-eps-converted-to.pdf" "absM5-inc-eps-converted-to.pdf" "absL3.tex" "absL3.pdf" "absL3-inc.eps" "absL3-inc-eps-converted-to.pdf" "emisM5-inc-eps-converted-to.pdf" "emisL3-inc-eps-converted-to.pdf" "xps.pdf" "absM5-inc.eps" "absM5.pdf" "emisL3-inc.eps" "absM5.aux" "Makefile" "xps.log" "xps.out" "absK.aux" "emisM5.aux" "xpsNotes.bib" "absK.log" "emisL3.aux" "emisK-inc.eps" "xps.aux" "absK-inc-eps-converted-to.pdf" "emisM5-inc.eps" "emisM5.tex" "emisL3.tex" "emisM5.log" "emisL3.pdf" "absK.tex" "./" "xps.org" "absL3.log" "emisK.tex" "xps.tex" "emisK.pdf" "emisK.aux" "emisK.log" "absL3.aux")
+
+ ("/home/crf/Projects/phynotes/LandauZener/" (23790 29957 602488 357000) "../" "./" "LZ.org")
+
+ ("/home/crf/.sbclql/local-projects/gref/src/" (23790 15629 220180 573000) "list.lisp" "array.lisp" "../" "xmls.lisp" "hash.lisp" "package.lisp" "./")
+
+ ("/home/crf/Projects/UN/GGA/xps/" (23789 12306 637983 582000) "xspecM5.dat" "../" "xspecL3.dat" "xspec.gnuplot" "xspecK.dat" "./")
+
+ ("/home/crf/.sbclql/local-projects/" (23784 3188 895627 360000) "utility/" "../" "clsl/" "bib/" "vaspkit/" "string/" "os/" "pull.sh" "tmp/" "narray/" "./" "system-index.txt" "cell/" "xarray/" "gref/" "complex/")
+
+ ("/home/crf/Projects/USi3/draft/" (23784 5397 686113 880000) "../" "figure/" "paper/" "./")
+
+ ("/home/crf/Projects/USi3/figures/bulk/" (23782 24294 899846 242000) "bulk.tex" "bulk.log" "1.010/" "1.015/" "Cp-temperature_polyfit.dat" "../" "0.985/" "1.020/" "volume-temperature.dat" "Cv-volume.dat" "bulk-inc.eps" "gruneisen-temperature.dat" "entropy-volume.dat" "1.025/" "0.990/" "mesh.conf" "0.975/" "bulk_modulus-temperature.dat" "dsdv-temperature.dat" "gibbs-temperature.dat" "bulk.pdf" "0.980/" "scp.sh" "1.000/" "post.sh" "bulk-inc-eps-converted-to.pdf" "Makefile" "1.005/" "bulk.aux" "thermal_expansion.dat" "band.conf" "volume.lisp" "Cp-temperature.dat" "./" "0.995/" "v-e.dat" "eos.dat" "helmholtz-volume.dat" "bulk.gnuplot")
+
+ ("/home/crf/Nutstore/" (23759 55390 609940 649000) "UO2.png" "../" "Projects/" ".bashrc" "Physics/" "Computer/" ".emacs" "note.org" "logo.jpg" "Others/" "openmpi-2.1.6.tar.gz" "Math/" "0001-Fortran-Disable-Assignment-to-contiguous-pointer-fro.patch" "./" "rc.local" "todo.org" "材料/" "mmexport1531376976081.jpg" "Pluto/" "10.1016@j.cpc.2017.08.008.pdf" "Literature/")
+
+ ("/home/" (23613 46705 699074 972000) "../" "crf/" "./")
+
+ ("/home/crf/" (23780 7523 992348 114000) ".viminfo" ".bash_history" ".sbclrc" "Nutstore Files/" ".emacs.sr~" "Videos/" "../" ".oracle_jre_usage/" "Projects/" ".bash_logout" ".gitconfig" ".bashrc" ".Xauthority" "Music/" ".Xclients" "Documents/" ".dir_colors" ".octave_hist" ".pip/" ".config/" ".nutstore/" ".vim/" ".face" ".bash_profile" ".swt/" ".gnuplot_history" ".ipython/" "Nutstore/" "Templates/" ".gtkrc-2.0" ".kde4/" ".pki/" ".xinitrc" ".esd_auth" ".python_history" ".emacs.d/" ".mplayer/" ".face.icon" ".cache/" "Pictures/" ".ssh/" "./" ".slime-history.eld" ".emacs.sr" ".calc_history" ".local/" ".sbclql/" ".profile" ".mozilla/" ".slime/" "Desktop/" ".masterpdfeditor/" "Downloads/" ".emacs.d.src/" ".lesshst" "Public/")
+
+ ("/home/crf/.sbclql/" (23706 7912 108898 54000) "dists/" "../" "setup.lisp" "local-projects/" "client-info.sexp" "tmp/" "quicklisp/" "./" "retired/" "asdf.lisp")
+
+ ("/home/crf/.sbclql/local-projects/clsl/src/special/" (23773 29236 660394 147000) "coupling.lisp" "../" "bessel.lisp" "dilogarithm.lisp" "elljac.lisp" "dawson.lisp" "debye.lisp" "coulomb.lisp" "airy.lisp" "./" "clausen.lisp" "ellint.lisp" "error.lisp" "expint.lisp")
+
+ ("/home/crf/.sbclql/local-projects/gref/" (23771 65328 920775 984000) "../" "src/" ".git/" "README.md" "./" "gref.asd")
 
  ("/home/crf/.sbclql/local-projects/bibitem/src/" (23761 18220 74884 426000) "bib.lisp" "../" "package.lisp" "./")
 

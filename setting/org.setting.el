@@ -43,7 +43,7 @@
 \\usepackage{bm}
 \\usepackage{physics}
 \\usepackage{subfigure}
-\\usepackage[colorlinks=true,linkcolor=blue,urlcolor=magenta,citecolor=blue]{hyperref}
+\\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue]{hyperref}
 [NO-DEFAULT-PACKAGES]
 [PACKAGES]
 [EXTRA]"

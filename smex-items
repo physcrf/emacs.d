@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ replace-string
+ org-ref-pdf-to-bibtex
  slime
- package-list-packages
  comment-region
  uncomment-region
- org-ref-pdf-to-bibtex
- delete-region
- doi-utils-add-bibtex-entry-from-doi
+ life
+ shell
 )
 
 ;; ----- smex-data -----
@@ -16,10 +16,13 @@
  (auto-complete . 5)
  (package-list-packages . 3)
  (company-mode . 3)
- (org-ref-pdf-to-bibtex . 4)
+ (org-ref-pdf-to-bibtex . 5)
  (doi-utils-add-bibtex-entry-from-doi . 1)
- (slime . 18)
- (comment-region . 6)
- (uncomment-region . 4)
+ (slime . 84)
+ (comment-region . 17)
+ (uncomment-region . 10)
  (delete-region . 1)
+ (replace-string . 9)
+ (shell . 1)
+ (life . 1)
 )
