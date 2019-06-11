@@ -53,4 +53,26 @@
 	       ("\\paragraph{%s}" . "\\paragraph*{%s}")
 	       ("\\subparagraph{%s}" . "\\subparagraph{%s}")))
 
+(add-to-list 'org-latex-classes
+	     '("doc"
+	       "\\documentclass{book}
+\\usepackage[top=1in,bottom=1in,left=1in,right=1in]{geometry}
+\\usepackage{graphicx}
+\\usepackage{amsmath}
+\\usepackage{amssymb}
+\\usepackage{bm}
+\\usepackage{txfonts}
+\\usepackage{physics}
+\\usepackage{subfigure}
+\\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue]{hyperref}
+\\usepackage{minted}
+[NO-DEFAULT-PACKAGES]
+[PACKAGES]
+[EXTRA]"
+	       ("\\chapter{%s}" . "\\chapter*{%s}")
+	       ("\\section{%s}" . "\\section*{%s}")
+	       ("\\subsection{%s}" . "\\subsection*{%s}")
+	       ("\\paragraph{%s}" . "\\paragraph*{%s}")
+	       ("\\subparagraph{%s}" . "\\subparagraph{%s}")))
+
 (provide 'org.setting)
