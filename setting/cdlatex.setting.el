@@ -1,7 +1,8 @@
 (setq cdlatex-math-symbol-alist
       '((?$ ("\\dag"))
 	(?. ("\\cdot" "\\cdots"))
-	(?^ ("\\hat" "\\uparrow"))))
+	(?^ ("\\hat" "\\uparrow"))
+	(?B ("\\bm"))))
 
 (setq cdlatex-env-alist
       '(("equation" "\\begin{equation}
