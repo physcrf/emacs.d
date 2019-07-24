@@ -72,6 +72,29 @@
 	       ("\\chapter{%s}" . "\\chapter*{%s}")
 	       ("\\section{%s}" . "\\section*{%s}")
 	       ("\\subsection{%s}" . "\\subsection*{%s}")
+	       ("\\subsubsection*{%s} . \\subsubsection{%s}")
+	       ("\\paragraph{%s}" . "\\paragraph*{%s}")
+	       ("\\subparagraph{%s}" . "\\subparagraph{%s}")))
+
+(add-to-list 'org-latex-classes
+	     '("reply"
+	       "\\documentclass{revtex4-1}
+\\usepackage{graphicx}
+\\usepackage{amsmath}
+\\usepackage{amssymb}
+\\usepackage{bm}
+\\usepackage{physics}
+\\usepackage{subfigure}
+\\usepackage{txfonts}
+\\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue]{hyperref}
+\\setlength{\\parindent}{0pt}
+\\setlength{\\parskip}{5pt}
+[NO-DEFAULT-PACKAGES]
+[PACKAGES]
+[EXTRA]"
+	       ("\\section{%s}" . "\\section*{%s}")
+	       ("\\subsection{%s}" . "\\subsection*{%s}")
+	       ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
 	       ("\\paragraph{%s}" . "\\paragraph*{%s}")
 	       ("\\subparagraph{%s}" . "\\subparagraph{%s}")))
 
