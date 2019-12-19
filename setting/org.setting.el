@@ -61,7 +61,7 @@
 \\usepackage{amsmath}
 \\usepackage{amssymb}
 \\usepackage{bm}
-\\usepackage{txfonts}
+\\usepackage{times}
 \\usepackage{physics}
 \\usepackage{subfigure}
 \\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue]{hyperref}
