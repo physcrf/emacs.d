@@ -1,6 +1,5 @@
-(require 'julia-mode)
-(require 'julia-repl)
+(require 'julia-snail)
 
-(add-hook 'julia-mode-hook 'julia-repl-mode)
+(add-hook 'julia-mode-hook 'julia-snail-mode)
 
 (provide 'julia.setting)
