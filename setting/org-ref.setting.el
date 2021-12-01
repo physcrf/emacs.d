@@ -1,5 +1,9 @@
 (require 'org-ref)
 (require 'doi-utils)
+(require 'org-ref-ivy)
+(require 'bibtex)
+
+(define-key org-mode-map (kbd "C-c ]") 'org-ref-insert-link)
 
 (setq bibtex-autokey-year-length 4
       bibtex-autokey-name-year-separator ""
@@ -8,6 +12,17 @@
       bibtex-autokey-titlewords 1
       bibtex-autokey-titlewords-stretch 1
       bibtex-autokey-titleword-length 120)
+
+(setq bibtex-completion-bibliography '("/home/crf/Nutstore/Literature/papers.bib")
+      bibtex-completion-library-path '("/home/crf/Nutstore/Literature/pdfs")
+      bibtex-completion-notes-path "/home/crf/Nutstore/Literature/notes.org")
+
+(setq org-ref-insert-link-function 'org-ref-insert-link-hydra/body
+      org-ref-insert-cite-function 'org-ref-cite-insert-ivy
+      org-ref-insert-label-function 'org-ref-insert-label-link
+      org-ref-insert-ref-function 'org-ref-insert-ref-link
+      org-ref-cite-onclick-function (lambda (_) (org-ref-citation-hydra/body)))
+
 
 (setq org-ref-bibliography-notes "/home/crf/Nutstore/Literature/notes.org"
       org-ref-default-bibliography '("/home/crf/Nutstore/Literature/papers.bib")

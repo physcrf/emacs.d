@@ -7,7 +7,6 @@
  ;; If there is more than one, they won't work right.
  '(inhibit-startup-screen t)
  '(make-backup-files nil)
- '(org-agenda-files '("~/Projects/USi3/draft/paper/usi3.org"))
  '(org-file-apps
    '((auto-mode . emacs)
      ("\\.mm\\'" . default)
