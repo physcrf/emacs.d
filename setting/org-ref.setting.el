@@ -14,7 +14,7 @@
       bibtex-autokey-titleword-length 120)
 
 (setq bibtex-completion-bibliography '("/home/crf/Nutstore/Literature/papers.bib")
-      bibtex-completion-library-path '("/home/crf/Nutstore/Literature/pdfs")
+      bibtex-completion-library-path '("/home/crf/Nutstore/Literature/pdfs/")
       bibtex-completion-notes-path "/home/crf/Nutstore/Literature/notes.org")
 
 (setq org-ref-insert-link-function 'org-ref-insert-link-hydra/body
